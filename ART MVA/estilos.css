@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Limelight&family=Pridi&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  width: 100%;
+  height: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+section div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+}
+section div h1 {
+  font-family: "Sour Gummy", sans-serif;
+  color: #d3428a;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+section div img {
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+}
+section div .texto-div {
+  font-size: 20px;
+  font-family: "Sour Gummy", sans-serif;
+  text-align: justify;
+  margin: 20px;
+  padding: auto;
+}
+section .artmva1 {
+  width: 100%;
+  height: 60%;
+}
+
+article {
+  margin: 30px;
+  padding-right: 20px;
+  display: inline-flex;
+  box-shadow: 1px 1px 12px 12px rgba(116, 111, 113, 0.3019607843);
+  border-radius: 15px;
+}
+article .columna-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  flex-wrap: wrap;
+  background: none;
+}
+article .columna-1 .titulo-1 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 25px;
+  color: black;
+  background: none;
+}
+article .columna-1 .parrafo-1 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Sour Gummy", sans-serif;
+  padding: 15px;
+  background: none;
+}
+article .columna-1 ul {
+  list-style-type: none;
+  background: none;
+}
+article .columna-1 ul li {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  background: none;
+}
+article .columna-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  flex-wrap: wrap;
+  background: none;
+}
+article .columna-2 .titulo-2 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 25px;
+  color: black;
+  background: none;
+}
+article .columna-2 .parrafo-2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Sour Gummy", sans-serif;
+  padding: 15px;
+  background: none;
+}
+article .columna-2 ul {
+  list-style-type: none;
+  background: none;
+  margin-top: inherit;
+}
+article .columna-2 ul li {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  background: none;
+}
+article .columna-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  flex-wrap: wrap;
+  background: none;
+}
+article .columna-3 a {
+  background: none;
+}
+article .columna-3 .logo-1 {
+  background: none;
+  display: block;
+  margin: 0 auto;
+  animation: scale 3s infinite alternate;
+}
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+article .columna-3 .parrafo-3 {
+  background: none;
+  margin-top: 40px;
+  font-family: "Sour Gummy", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+article .columna-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  flex-wrap: wrap;
+  background: none;
+}
+article .columna-4 a {
+  background: none;
+}
+article .columna-4 .logo-2 {
+  background: none;
+  display: block;
+  margin: 0 auto;
+  animation: scale 3s infinite alternate;
+}
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+article .columna-4 .titulo-4 {
+  background: none;
+  margin-top: 40px;
+  font-family: "Sour Gummy", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer a button {
+  background: #d3428a;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+footer a button:hover {
+  background: #fff;
+  color: #d3428a;
+}
+footer a button:before, footer a button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #d3428a;
+  transition: 400ms ease all;
+}
+footer a button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+footer a button:hover:before, footer a button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    margin: 20px;
+  }
+  button {
+    background: #d3428a;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 60px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+  }
+  button:hover {
+    background: #fff;
+    color: #d3428a;
+  }
+  button:before, button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #d3428a;
+    transition: 400ms ease all;
+  }
+  button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  button:hover:before, button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+}/*# sourceMappingURL=estilos.css.map */
